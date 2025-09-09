@@ -1,6 +1,7 @@
+import Newsletter from "../src/components/Newsleeter";
+import Analytics from "./components/Analytics";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Analytics from "./components/Analytics";
 import './index.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Hero />
         <Analytics />
+        <Newsletter />
     </div>
   );
 }
